@@ -1,10 +1,13 @@
 import LeftSide from './Components/LeftSide';
+import RightSide from './Components/RightSide';
 import './App.css';
-
 function App() {
   return (
     <div className="App">
-      <LeftSide></LeftSide>
+      <div className='flex-container'>
+        <LeftSide />;
+        <RightSide />;
+      </div>
     </div>
   );
 }

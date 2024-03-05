@@ -1,11 +1,12 @@
-import './Competens.css';
+import './Competense.css';
 function Competence()
 {
     return(
         <div>
-        <h3>KOMPETENS</h3>
-                <hr/>
-               <ol style="list-style-type: disc;">
+            <hr/>
+            <h3>KOMPETENS</h3>
+               
+               <ul>
                 <li>
                     Jag har till största delen jobbat
                     med ett internt
@@ -24,8 +25,8 @@ function Competence()
                     att jag kämpar med ett problem
                     tills det är löst
                 </li>
-            </ol>
-    </div>
+            </ul>
+        </div>
 
     );
     

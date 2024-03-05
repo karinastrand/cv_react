@@ -1,0 +1,9 @@
+.experience
+{
+    display: flex;
+    flex-direction: row;
+}
+h4{
+    text-align: left;
+    margin-left: 20px;
+}

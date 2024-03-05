@@ -2,12 +2,12 @@ import './LeftSide2.css';
 function LeftSide2()
 {
     return(
-        <div>
+        <div className='left2'>
         <h3>SPRÅK</h3>
-        <h4>Svenska:</h4>
-        <p>Modersmål</p>
-        <h4>Engelska:</h4>
-        <p>B2</p>
+        <item className="lang">Svenska:</item><br></br>
+        <item className="level">Modersmål</item><br></br>
+         <item className="lang">Engelska:</item><br></br>
+        <item className="level">B2</item>
     </div>
 
     );

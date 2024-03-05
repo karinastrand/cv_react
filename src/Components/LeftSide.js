@@ -6,11 +6,11 @@ import LeftSide3 from "./LeftSide3.js";
 function LeftSide()
 {
     return(
-        <div>
-             <img src={img}></img>
-             <LeftSide1></LeftSide1>
-             <LeftSide2></LeftSide2>
-             <LeftSide3></LeftSide3>
+        <div className="LeftSideBox" >
+             <img src={img} alt="me"></img>
+             <LeftSide1 />
+             <LeftSide2/>
+             <LeftSide3/>
         </div>
        
 
