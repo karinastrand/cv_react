@@ -1,5 +1,14 @@
-li 
+.competence
+{
+    
+    
+    text-align: left;
+    margin-bottom: 20px;
+}
+.comptext
 {
     list-style-type: none;
     text-align: left;
+    font-size: 12px;
+    margin-left: 20px;
 }

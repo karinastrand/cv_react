@@ -1,11 +1,12 @@
 import "./ExperienceTitle.css"
-function ExperienceTitle()
+function ExperienceTitle(props)
 {
     return(
         <div className="title">
-            Nectar Systems<br></br>
-            <item>Hässleholm<br></br></item>
-            <item>Januari 2000 - Oktober 2023<br></br></item>
+            
+            {props.title1}<br/>
+            <item>{props.title2}<br/></item>
+            <item>{props.title3}</item>
         </div>
     );
 }

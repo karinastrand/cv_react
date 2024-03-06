@@ -3,4 +3,11 @@
     font-size: 18px;
     width: 50%;
     text-align: left;
+    font-weight: bold;
+    
+}
+.textitem
+{
+    white-space: pre-line;
+    font-size: 12px;
 }

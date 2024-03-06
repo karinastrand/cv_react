@@ -1,13 +1,14 @@
 .left2
 {
     text-align: left;
+    font-size: 12px;
 }
 .level
 {
-    font-size: 14px;
+    font-size: 12px;
 }
 .lang
 {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
 }

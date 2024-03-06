@@ -2,30 +2,26 @@ import './Competense.css';
 function Competence()
 {
     return(
-        <div>
+        <div className='competence'>
             <hr/>
-            <h3>KOMPETENS</h3>
+            <h4>KOMPETENS</h4>
                
-               <ul>
-                <li>
+               <div className="comptext">
                     Jag har till största delen jobbat
                     med ett internt
                     utvecklingsverktyg baserat på
                     Basic men även en del med C# i
-                    Visual Studio.
-                </li>
-                <li>
+                    Visual Studio.<br/>
+                
                     Jag har ett logiskt sinne och har
                     ganska lätt att ta till mig olika
                     programmeringsspråk och
-                    utvecklingsmiljöer.
-                </li>
-                <li>
+                    utvecklingsmiljöer.<br/>
+                
                     Jag är uthållig och envis. Det gör
                     att jag kämpar med ett problem
                     tills det är löst
-                </li>
-            </ul>
+                    </div>
         </div>
 
     );

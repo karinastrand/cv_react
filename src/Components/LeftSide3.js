@@ -1,8 +1,8 @@
-import './LeftSide3.css';
+
 function LeftSide3()
 {
 return(
-    <div>
+    <div className='left2'>
                 
         <h3>INTRESSEN</h3>
         <p>

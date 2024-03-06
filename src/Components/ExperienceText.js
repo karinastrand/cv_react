@@ -1,13 +1,18 @@
 import "./ExperienceText.css"
-function ExperienceText()
+import TextWithLines from "./TextWithLines"
+
+function ExperienceText(props)
 {
-    return(
+    
+   return ( 
+ 
+
         <div className="text">
-            Systemutvecklare<br></br>
-            <item>   Jag har jobbat med att utveckla, underhålla och supportera ett
-                dokumentationssystem som användes av socialförvaltningar i ett antal
-                kommuner. Systemet är byggt med ett av företaget egenutvecklat verktyg
-                med basic som bas.</item> 
+            {props.title4}<br/>
+            <item className="textitem">
+                <TextWithLines text={props.text} />
+            </item>
+            <br/>
         </div>
     );
     
