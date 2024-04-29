@@ -20,7 +20,9 @@ function Competence()
                 
                     Jag är uthållig och envis. Det gör
                     att jag kämpar med ett problem
-                    tills det är löst
+                    tills det är löst. <br/>
+
+                    Jag har lätt att lära och ger mig gärna på nya områden.
                     </div>
         </div>
 

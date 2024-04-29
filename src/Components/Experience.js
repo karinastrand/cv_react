@@ -49,6 +49,25 @@ function Experience()
                 />
                 
             </div>
+            
+              <div className='experience'>
+                <ExperienceTitle 
+                title1="Complete guide to ASP.NET Core MVC (.NET 8)"
+                title2="Udemy"
+                title3="2024"
+                />
+                <ExperienceText
+                title4="Innehåll"
+                text="https://www.dotnetmastery.com/Home/Details?courseId=9*
+                Från kursöversikten:*
+                
+                This is a Beginner to the Advance level course on ASP.NET Core that will take you from basics
+                all the way to advance mode. This course is for anyone who is familiar with ASP.NET basics and wants to know how to architect and code real-world applications in ASP.NET Core*
+                *
+                En praktisk kurs i hur man bygger en E-commerce applikation med hjälp av MVC"
+                />
+               
+            </div>  
             <div className='experience'>
                 <ExperienceTitle 
                 title1="Programmering"

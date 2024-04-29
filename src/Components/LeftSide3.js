@@ -6,7 +6,7 @@ return(
                 
         <h3>INTRESSEN</h3>
         <p>
-            Trädgård<br/>Bakning
+            Programmering<br/>Korsord, logiska problem<br/>Trädgård<br/>Bakning
         </p>
                
         
