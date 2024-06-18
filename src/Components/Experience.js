@@ -37,19 +37,36 @@ function Experience()
                     title4="Innehåll"
                     text=".NET fullstack:*
                     C# *
-                    C# databasmetodik i Visual Studio: Entity Framework,LINQ\n
-                    Frontend: HTML CSS, JavaScript, JQUERY, React*
-                    ASP.NET Webb<br></br>C MVC*
+                    C# databasmetodik i Visual Studio: Entity Framework,LINQ*                    Frontend: HTML CSS, JavaScript, JQUERY, React*
+                    ASP.NET Webb* C MVC*
                     Azure\nSQL i Microsoft SQL server*
                     Testmetodik:* 
                     Test av mjukvara i olika cykler*
                     Test design teknik*
                     Agile och
-                    Exploratory test"
+                    Exploratory test*
+                    AI*
+                    Azure*
+                    Phyton"
                 />
                 
             </div>
-            
+            <div className='experience'>
+                <ExperienceTitle 
+                title1=".NET Core Microservices - The Complete Guide"
+                title2="Udemy"
+                title3="2024"
+                />
+                <ExperienceText
+                title4="Innehåll"
+                text="https://www.dotnetmastery.com/Home/Details?courseId=19*
+                Från kursöversikten:*
+                
+                Learn Microservices architecture with 
+                .NET Core MVC(.NET 8) and Identity Server Integration with Azure Service Bus*
+                *" />
+              
+            </div>  
               <div className='experience'>
                 <ExperienceTitle 
                 title1="Complete guide to ASP.NET Core MVC (.NET 8)"
@@ -66,6 +83,43 @@ function Experience()
                 *
                 En praktisk kurs i hur man bygger en E-commerce applikation med hjälp av MVC"
                 />
+               
+            </div>  
+            <div className='experience'>
+                <ExperienceTitle 
+                title1="RESTful API with ASP.NET Core - Create and Consume"
+                title2="Udemy"
+                title3="2024"
+                />
+                <ExperienceText
+                title4="Innehåll"
+                text="https://www.dotnetmastery.com/Home/Details?courseId=7*
+                Från kursöversikten:*
+                
+                This is a Beginner to Intermediate level course on ASP.NET Core Web API that will take you from basics
+                 the basics of building API to consuming them.*
+                *"
+                />
+                
+               
+            </div>  
+            <div className='experience'>
+                <ExperienceTitle 
+                title1="AppSettings and Secrets in ASP.NET Core"
+                title2="Udemy"
+                title3="2024"
+                />
+                <ExperienceText
+                title4="Innehåll"
+                text="https://www.dotnetmastery.com/Home/Details?courseId=16*
+                Från kursöversikten:*
+                
+                Understand AppSettings and learn how to secure your application secrets
+                 from development to production in ASP.NET Core*
+                *"
+                
+                />
+                
                
             </div>  
             <div className='experience'>
@@ -96,7 +150,20 @@ function Experience()
                 Visual Basic"
                 />
             </div>
+            <hr/>
+            <h4>CERTIFIERING</h4>
+                
+            <div className='experience'>
+                <ExperienceTitle 
+                id="1"
+                title1="Azure-900"
+                
+                />
+                
+            </div>
+            <hr/>
         </div>
+        
 
     );
 

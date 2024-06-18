@@ -1,12 +1,12 @@
-import './Competense.css';
+import './LeftSide1';
 function Competence()
 {
     return(
-        <div className='competence'>
-            <hr/>
-            <h4>KOMPETENS</h4>
+        <div className='about'>
+           
+            <h3>KOMPETENS</h3>
                
-               <div className="comptext">
+               <p>
                     Jag har till största delen jobbat
                     med ett internt
                     utvecklingsverktyg baserat på
@@ -23,7 +23,7 @@ function Competence()
                     tills det är löst. <br/>
 
                     Jag har lätt att lära och ger mig gärna på nya områden.
-                    </div>
+                    </p>
         </div>
 
     );

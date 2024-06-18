@@ -8,7 +8,7 @@ function RightSide()
         <div className="RightSideBox">
         <Header />
         <Experience />
-        <Competence />
+        
         </div>
     );
     
