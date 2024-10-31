@@ -23,6 +23,20 @@ function Experience()
                 kommuner. Systemet är byggt med ett av företaget egenutvecklat verktyg
                 med basic som bas."
                 />
+                
+            </div>
+            <div className='experience'>
+                <ExperienceTitle 
+                id="1"
+                title1="APL på Scandinavian Certification Services"
+                title2="Malmö"
+                title3="sept 2024 - "
+                />
+                <ExperienceText
+                title4="Systemutvecklare"
+                text="Jag arbetar i ett team som utvecklar ett bokningssystem till företaget"
+                />
+                
             </div>
             <hr/>
             <h4>UTBILDNING</h4>
@@ -51,6 +65,18 @@ function Experience()
                 />
                 
             </div>
+            <div className='experience'>
+                <ExperienceTitle 
+                title1="Blazor Deep Dive - Frp, Beginner to Advanced in .NET8"
+                title2="Udemy"
+                title3="2024"
+                />
+                <ExperienceText
+                title4="Innehåll"
+                text="https://www.udemy.com/course/blazor-deep-dive-from-beginner-to-advanced*
+                " />
+              
+            </div>  
             <div className='experience'>
                 <ExperienceTitle 
                 title1=".NET Core Microservices - The Complete Guide"
